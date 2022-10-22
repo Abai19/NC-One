@@ -1,0 +1,15 @@
+@import "../../App.scss";
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.favorites{
+  width: 20%;
+  position: fixed;
+  float:left;
+}
+.list {
+  width: 70%;
+  float: right;
+}

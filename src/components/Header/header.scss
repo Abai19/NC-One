@@ -1,0 +1,17 @@
+@import "../../App.scss";
+.navbar {
+  background-color:  $orange;
+  font-family: $fontAnek;
+  font-weight: 500;
+  font-size: 32px;
+  color:$black;
+  margin-bottom: 40px;
+}
+.navbar div{
+  width: 90%;
+  text-align: end;
+}
+.navbar span{
+  text-transform: uppercase;
+  vertical-align: sub;
+}
