@@ -2,4 +2,24 @@
 .block{
     border: 2px dashed $black;
     height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.itemBlockFav{
+    display: flex;
+}
+.favImg {
+    width: 120px!important;
+}
+.blockPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.favoritesTitle{
+    font-family: $fontAnek;
+    color:$black;
+    font-size: 24px;
+    padding: 20px;
+    text-transform: uppercase;
 }

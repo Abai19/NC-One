@@ -8,5 +8,9 @@
   border: 1px dashed  $black ;
   border-radius: 30px!important;
 }
-.blockPrice{
+.activeFav{
+  background-color:white;
+}
+.disActiveFav{
+  background-color:$black;
 }

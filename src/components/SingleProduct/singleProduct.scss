@@ -1,0 +1,17 @@
+@import "../../App.scss";
+.blockSingle{
+  display: flex;
+  align-items: center;
+}
+.singleItemName{
+  font-size: 64px;
+  line-height: 56px;
+  font-family:$fontAnek ;
+}
+.singlePriceBlock{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 60px;
+  margin-top: 30px
+}
