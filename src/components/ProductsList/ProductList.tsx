@@ -51,14 +51,10 @@ const ProductList = () => {
                                 <Typography gutterBottom variant="h6">
                                     {i.name}
                                 </Typography>
-
-
                                 <Typography  variant="h6" className="blockPrice">
                                     ${i.price}
                                     <img src={Filled} className={ checkFav(i.id) ? 'activeFav' : 'disActiveFav' } alt="" onClick={makeFav} data-id={i.id}/>
-                                    {/*<Icon onClick={makeFav} data-id={i.id}></Icon>*/}
                                 </Typography>
-                                    {/*<button>sadas</button>*/}
                             </CardContent>
                         </Box>
 

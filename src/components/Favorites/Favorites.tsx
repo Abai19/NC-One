@@ -1,13 +1,8 @@
 import React from 'react';
 import './favorites.scss'
 import {Item, useGlobalState} from "../../App";
-import Box from "@mui/material/Box";
 import CardMedia from "@mui/material/CardMedia";
-import CardContent from "@mui/material/CardContent";
-import {Typography} from "@mui/material";
 import Filled from "../../icons/filled.svg";
-import Card from "@mui/material/Card";
-
 
 const Favorites = () => {
     const [data] = useGlobalState('arr');
@@ -47,9 +42,7 @@ const Favorites = () => {
                                 <p   className="blockPrice">
                                     ${f.price}
                                     <img src={Filled} className='disActiveFav '  alt="" onClick={makeFav} data-id={f.id}/>
-                                    {/*<Icon onClick={makeFav} data-id={i.id}></Icon>*/}
                                 </p>
-                                {/*<button>sadas</button>*/}
                             </div>
                     </div>
                     )

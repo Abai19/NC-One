@@ -37,7 +37,7 @@ const SingleProduct = () => {
     }
     return (
         <div>{
-            singleData?
+            singleData &&
                 <div className="blockSingle">
                     <ReactImageMagnify {...{
                         smallImage: {
@@ -51,7 +51,6 @@ const SingleProduct = () => {
                             height: 1800
                         }
                     }} />
-                    {/*<img src={`https://testbackend.nc-one.com${data.src}`} alt=""/>*/}
                     <div>
 
 
@@ -65,8 +64,6 @@ const SingleProduct = () => {
                     </div>
                     </div>
                 </div>
-                :
-                ""
         }
 
 
